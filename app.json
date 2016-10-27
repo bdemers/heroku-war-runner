@@ -21,7 +21,7 @@
     },
     "VERSION": {
       "description": "A Maven Artifact's Version",
-      "value": ""
+      "value": "[0.0.0,)"
     }
 
   }
