@@ -26,7 +26,7 @@
     </parent>
 
     <groupId>com.stormpath.example</groupId>
-    <artifactId>stormpath-war-runner</artifactId>
+    <artifactId>heroku-war-runner</artifactId>
     <name>Stormpath :: Heroku Jetty Runner</name>
      <packaging>pom</packaging>
 
