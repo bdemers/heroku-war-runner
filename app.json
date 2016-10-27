@@ -20,7 +20,7 @@
       "description": "A Maven Artifact's ID"
     },
     "VERSION": {
-      "description": "A Maven Artifact's Version",
+      "description": "A Maven Artifact's Version, '[0.0.0,)' will use the latest version",
       "value": "[0.0.0,)"
     }
 
