@@ -11,5 +11,13 @@
     "stormpath"
   ],
   "repository": "https://github.com/bdemers/heroku-wrapper-test",
-  "success_url": "/"
+  "success_url": "/",
+  "env": {
+    "GROUP_ID": {
+      "description": "A Maven Artifact's Group ID"
+    },
+    "ARTIFACT_ID": {
+      "description": "A Maven Artifact's ID"
+    }
+  }
 }
