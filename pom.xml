@@ -25,8 +25,9 @@
         <version>7</version>
     </parent>
 
-    <artifactId>stormpath-example-deployer-war</artifactId>
-    <name>Stormpath :: Example :: Deployer :: War</name>
+    <groupId>com.stormpath.example</groupId>
+    <artifactId>stormpath-war-runner</artifactId>
+    <name>Stormpath :: Heroku Jetty Runner</name>
      <packaging>pom</packaging>
 
     <dependencies>
@@ -34,7 +35,8 @@
             <groupId>${env.GROUP_ID}</groupId>
             <artifactId>${env.ARTIFACT_ID}</artifactId>
             <!-- Version ranges are BAD, but in this we are just wrapping the latest war, to deploy to heroku -->
-            <version>[0.0.0,)</version>
+            <!-- The default is latest '[0.0.0,)' -->
+            <version>${env.VERSION}</version>
             <type>war</type>
             <scope>runtime</scope>
         </dependency>

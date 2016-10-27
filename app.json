@@ -18,6 +18,11 @@
     },
     "ARTIFACT_ID": {
       "description": "A Maven Artifact's ID"
+    },
+    "VERSION": {
+      "description": "A Maven Artifact's Version",
+      "value": ""
     }
+
   }
 }
