@@ -1,0 +1,15 @@
+{
+  "name": "stormpath-shiro-servlet-example",
+  "description": "A basic example of using Stormpath and Apache Shiro.",
+  "keywords": [
+    "shiro",
+    "servlet",
+    "java",
+    "stormpath"
+  ],
+  "addons": [
+    "stormpath"
+  ],
+  "repository": "https://github.com/bdemers/heroku-wrapper-test",
+  "success_url": "/"
+}
