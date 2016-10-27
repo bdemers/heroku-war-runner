@@ -1,5 +1,5 @@
 {
-  "name": "stormpath-shiro-servlet-example",
+  "name": "StormpathShiroServletExample",
   "description": "A basic example of using Stormpath and Apache Shiro.",
   "keywords": [
     "shiro",
