@@ -6,7 +6,7 @@ The pom.xml will download a war artifact and run that war with Jetty.
 
 Example:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bdemers/heroku-war-runner&env\[GROUP_ID\]=com.stormpath.shiro&env\[ARTIFACT_ID\]=stormpath-shiro-servlet-example)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/stormpath/heroku-war-runner&env\[GROUP_ID\]=com.stormpath.shiro&env\[ARTIFACT_ID\]=stormpath-shiro-servlet-example)
 
 
 Heroku requires an app.json at root of a git repo (not a bad requirement), but we (and other projects) have a lot of examples in 
@@ -15,7 +15,7 @@ a Maven sub-module typically named `examples`.  This repo will wrap any Maven `w
 Button format:
 
 ``` markdown
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bdemers/heroku-war-runner&env\[GROUP_ID\]=<maven-groupId-here>&env\[ARTIFACT_ID\]=<maven-artifactId-here>)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/stormpath/heroku-war-runner&env\[GROUP_ID\]=<maven-groupId-here>&env\[ARTIFACT_ID\]=<maven-artifactId-here>)
 ```
 
 Where `<maven-groupId-here>` is your groupId, and `<maven-artifactId-here>` is your artifactId.
