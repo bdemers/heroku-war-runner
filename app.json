@@ -10,7 +10,7 @@
   "addons": [
     "stormpath"
   ],
-  "repository": "https://github.com/stormpath/heroku-wrapper-test",
+  "repository": "https://github.com/stormpath/heroku-war-runner",
   "success_url": "/",
   "env": {
     "GROUP_ID": {
